@@ -1,3 +1,4 @@
+import { Add } from "@mui/icons-material";
 import { Container, Stack } from "@mui/material";
 import { Box } from "@mui/system";
 import Feed from "./Components/Feed";
@@ -14,6 +15,7 @@ function App() {
         <Feed />
         <RightBar />
       </Stack>
+      <Add/>
     </Box>
   );
 }
